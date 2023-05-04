@@ -8,3 +8,11 @@ Para usar você apenas precisa colocar o index.php dentro da pasta onde estão s
 Por enquanto ela funciona apenas para videos mp4
 
 by: Gabriel Logan
+
+
+# Antes
+
+![Diretorio Antes](https://raw.githubusercontent.com/gabriel-logan/ListaVideos/main/Antes_Depois/diretorioAntes.png)
+![Xampp Antes](https://raw.githubusercontent.com/gabriel-logan/ListaVideos/main/Antes_Depois/apacheXamppAntes.png)
+![Diretorio depois](https://raw.githubusercontent.com/gabriel-logan/ListaVideos/main/Antes_Depois/diretorioDepois.png)
+![Xampp Depois](https://raw.githubusercontent.com/gabriel-logan/ListaVideos/main/Antes_Depois/apacheXamppDepois.png)
