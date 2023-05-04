@@ -6,3 +6,5 @@ Esta é uma página desenvolvida em PHP, HTML e CSS que tem a funcionalidade de 
 Para usar você apenas precisa colocar o index.php dentro da pasta onde estão seus videos.mp4
 
 Por enquanto ela funciona apenas para videos mp4
+
+by: Gabriel Logan
