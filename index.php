@@ -60,7 +60,7 @@
 			margin-top: 20px;
 		}
 		#root .videos .video{
-			width: 260px;
+			width: 280px;
 			height: 280px;
 			display: flex;
 			flex-direction: column;
@@ -84,6 +84,17 @@
 			border-radius: 5px;
 			box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 		}
+		/* Ajustar tamanho do vídeo em tela cheia */
+		#root .videos .video video:-webkit-full-screen {
+			object-fit: contain; /* Mantém a proporção do vídeo */
+		}
+		/* Reverter tamanho do vídeo após sair da tela cheia */
+		#root .videos .video video:-webkit-full-screen-exit {
+			object-fit: cover;
+		}
+		#root .videos.with-margin {
+			margin-bottom: 75vh;
+		}
 		h3{
 			height: 70px;
 			display: flex;
@@ -97,14 +108,15 @@
 		footer {
 			background-color: #333;
 			color: #fff;
-			padding: 20px;
 			margin-top: 40px;
 			text-align: center;
 			position: relative;
 			bottom: 0;
 			width: 100%;
+			height: 120px;
 		}
 		footer p {
+			line-height: 120px;
 			margin: 0;
 		}
 	</style>
@@ -123,18 +135,19 @@
 			$folderName = basename(__DIR__);
 			echo '<h1>Videos Abaixo</h1>';
 			echo "<p> Modulo: $folderName </p>";
+			$dir = "../" . $folderName . "/";
+			$videosMp4 = glob($dir . "*.mp4");
+			$videoCount = count($videosMp4); // Contar o número de vídeos
 		?>
-		<div class="videos">
+		<div class="videos<?php if ($videoCount < 6) echo ' with-margin'; ?>">
 			<?php
-				$dir = "../" . $folderName . "/";
-				$videosMp4 = glob($dir . "*.mp4");
-				foreach ($videosMp4 as $video) {
-					$title = pathinfo($video)['filename'];
-					echo '<div class="video">';
-					echo '<h3>' . $title . '</h3>';
-					echo '<video src="' . $video . '" controls> </video>';
-					echo '</div>';
-				}
+			foreach ($videosMp4 as $video) {
+				$title = pathinfo($video)['filename'];
+				echo '<div class="video">';
+				echo '<h3>' . $title . '</h3>';
+				echo '<video src="' . $video . '" controls> </video>';
+				echo '</div>';
+			}
 			?>
 		</div>
 		<footer>
