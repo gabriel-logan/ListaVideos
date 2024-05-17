@@ -11,8 +11,8 @@ Por enquanto ela funciona apenas para videos mp4
 Aceito colaborações para melhorar o código e adicionar novas funcionalidades.
 
 ## Download index.php
-[Clique aqui para baixar](https://gabriel-logan.github.io/ListaVideos/index.php) - PT-BR
-[Click here to download](https://gabriel-logan.github.io/ListaVideos/index_en.php) - EN
+![Clique aqui para baixar](https://gabriel-logan.github.io/ListaVideos/index.php) - PT-BR
+![Click here to download](https://gabriel-logan.github.io/ListaVideos/index_en.php) - EN
 
 
 **by: Gabriel Logan**
