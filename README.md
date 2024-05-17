@@ -30,3 +30,7 @@ Aceito colaborações para melhorar o código e adicionar novas funcionalidades.
 
 ![Diretorio depois](https://raw.githubusercontent.com/gabriel-logan/ListaVideos/main/Antes_Depois/diretorioDepois.png)
 ![Xampp Depois](https://raw.githubusercontent.com/gabriel-logan/ListaVideos/main/Antes_Depois/apacheXamppDepois.png)
+
+## Contributing
+
+![Contributors](https://img.shields.io/badge/dynamic/json?color=blue&label=contributors&query=$.length&url=https://api.github.com/repos/<gabriel-logan>/<ListaVideos>/contributors)
