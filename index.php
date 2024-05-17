@@ -119,6 +119,16 @@
 			line-height: 120px;
 			margin: 0;
 		}
+
+		a {
+			text-decoration: none;
+			color: #666;
+			font-weight: bold;
+		}
+
+		a:hover {
+			color: #898989;
+		}
 	</style>
 </head>
 <body>
@@ -151,7 +161,7 @@
 			?>
 		</div>
 		<footer>
-			<p>© 2023 Gabriel Logan. Todos os direitos reservados.</p>
+			<p>&copy; 2023 <a href="https://github.com/gabriel-logan" target="_blank">Gabriel Logan</a>. Todos os direitos reservados.</p>
 		</footer>
 	</div>
 </body>

@@ -8,9 +8,13 @@ Esta é uma página desenvolvida em PHP, HTML e CSS que tem a funcionalidade de 
 # Para usar você apenas precisa colocar o index.php dentro da pasta onde estão seus videos.mp4
 
 Por enquanto ela funciona apenas para videos mp4
+Aceito colaborações para melhorar o código e adicionar novas funcionalidades.
+
+## Download index.php
+[Clique aqui para baixar](https://gabriel-logan.github.io/ListaVideos/index.php)
+
 
 **by: Gabriel Logan**
-
 
 # Antes
 
@@ -22,7 +26,6 @@ Por enquanto ela funciona apenas para videos mp4
 # Depois
 
 **Usando o index.php**
-
 
 ![Diretorio depois](https://raw.githubusercontent.com/gabriel-logan/ListaVideos/main/Antes_Depois/diretorioDepois.png)
 ![Xampp Depois](https://raw.githubusercontent.com/gabriel-logan/ListaVideos/main/Antes_Depois/apacheXamppDepois.png)
