@@ -33,4 +33,6 @@ Aceito colaborações para melhorar o código e adicionar novas funcionalidades.
 
 ## Contributing
 
-![Contributors](https://img.shields.io/badge/dynamic/json?color=blue&label=contributors&query=$.length&url=https://api.github.com/repos/<gabriel-logan>/<ListaVideos>/contributors)
+<a href="https://github.com/gabriel-logan/ListaVideos/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=gabriel-logan/ListaVideos" />
+</a>
